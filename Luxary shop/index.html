@@ -7,6 +7,9 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Luxury shop</title>
     <link rel="stylesheet" href="style/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/b86255527c.js" crossorigin="anonymous"></script>
 </head>
 <body>
 <div class="wrapper">
@@ -14,11 +17,11 @@
         <!--    header  -->
         <header class="header center">
             <div class="header__left">
-                <a href="#" class="logo"><img class="logo__img" src="img/logo.png" alt="logo">BRAND</a>
+                <a href="#" class="logo"><img class="logo__img" src="img/logo.png" alt="logo">BRAN<span class="logo__pink">D</span></a>
                 <form class="header__form" action="#">
-                    <div>Browse</div>
-                    <input type="text">
-                    <button type="submit"><img src="img/search_img.png" alt="search"></button>
+                    <div class="header__form_options">Browse<i class="fas fa-caret-down header__form_dropdown"></i></div>
+                    <input class="header__form_input" type="text" placeholder="Search for Item...">
+                    <button class="header__form_btn" type="submit"><i class="fas fa-search"></i></button>
                 </form>
             </div>
             <div class="header__right">
@@ -41,8 +44,16 @@
             </ul>
         </nav>
         <!--    menu end    -->
+
+        <!--    promo   -->
+        <div class="promo">
+            <div class="promo__content center"></div>
+        </div>
     </div>
+
+    <!--    footer  -->
     <footer class="footer"></footer>
+    <!--    footer end  -->
 </div>
 </body>
 </html>
